@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link rel="icon" href="images/pelota.png">
+    <title>Mi Página de Fútbol</title>
+</head>
+<body>
+
+  <!-- Header -->
+        {{> header}}
+
+    <main>
+        <section id="noticias">
+            <h2>Últimas Noticias</h2>
+            <p>¡Bienvenido a nuestra página de fútbol! Aquí encontrarás las últimas noticias y actualizaciones sobre tus equipos y jugadores favoritos.</p>
+        </section>
+
+        <section id="partidos">
+            <h2>Próximos Partidos</h2>
+            <ul>
+                <li>Equipo A vs Equipo B - Fecha y Hora</li>
+                <li>Equipo C vs Equipo D - Fecha y Hora</li>
+                <!-- Agrega más partidos según sea necesario -->
+            </ul>
+        </section>
+
+        <section id="equipos">
+            <h2>Equipos Destacados</h2>
+            <p>Información sobre equipos destacados en la liga.</p>
+        </section>
+    </main>
+
+   	<!-- Footer -->
+        {{> footer}}
+
+</body>
+</html>
